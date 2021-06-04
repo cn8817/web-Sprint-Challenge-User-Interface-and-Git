@@ -49,12 +49,37 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding:2.5%;
+    margin:0 16%;
+}
+
+
+a{
+    padding-bottom:0;
+}
+
+.aboutimg{
+    display:flex;
+    justify-content: center;
+    padding-bottom:2%
+    
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -101,15 +126,55 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color:cadetblue ;
+}
+
+.box4{
+    background-color:coral ;
+}
+
+.box5{
+    background-color:crimson ;
+}
+
+.box6{
+    background-color:forestgreen ;
+}
+
+.box7{
+    background-color:darkorchid ;
+}
+
+.box8{
+    background-color:hotpink ;
+}
+
+.box9{
+    background-color:indigo ;
+}
+
+.box10{
+    background-color:dodgerblue ;
 }
 
 .bottom-content {
@@ -143,4 +208,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about*/
+
+.aboutmiddle{
+    padding-bottom:2%;
+    border-bottom:dashed black 1px;
+    margin-bottom:3%
+}
+
+.about{
+    display:flex;
+}
+
+
+button{
+    border:solid black 3px;
+    border-radius:10px;
+    padding:2% 4%;
+    background-color: white;
+    margin-top:3%
+}
+
+.image{
+    padding:2% 0;
+}
+
+.third{
+    padding:5%;
+}
+
+.spacing{
+    border-bottom:dashed black 1px;
+    padding-bottom:3%;
+    margin:3% 2%
+}
+
+
+.first{
+    padding-top:0;
 }
